@@ -1,1 +1,1 @@
-export class Styles {}
+export * from './src/lib/styles.module'

@@ -2,7 +2,7 @@
 
 > WIP: Implementation of [tabler](https://github.com/tabler/tabler) using Angular.
 
-<strong><a href="https://develop-tabler-angular-tabler.buddy.show">Live Demo</a></strong> | <strong><a href="https://tabler.github.io/tabler-angular/">Documentation</a></strong> | <strong><a href="https://goo.gl/zJP2dT">Join us on Slack</a></strong>
+<strong><a href="https://develop-tabler-angular-tabler.buddy.show">Live Demo</a></strong> | <strong><a href="https://tabler-angular-fire.firebaseapp.com">Firebase Demo</a></strong> | <strong><a href="https://tabler.github.io/tabler-angular/">Documentation</a></strong> | <strong><a href="https://goo.gl/zJP2dT">Join us on Slack</a></strong>
 
 # Installation
 
@@ -28,5 +28,38 @@ You can start one of the following applications:
 - Run `npm run docs`.
 - Navigate to `http://localhost:4201/`.
 - Update code in `apps/docs`
+- [Angular UI on npm](https://www.npmjs.com/package/@tabler/angular-ui)
+- [Angular Core on npm](https://www.npmjs.com/package/@tabler/angular-core)
+- [Angular Styles on npm](https://www.npmjs.com/package/@tabler/angular-styles)
+- [Angular Forms on npm](https://www.npmjs.com/package/@tabler/angular-forms)
+
+## Release to npm (deprecated)
+
+- Run `npm run release-it`
+
+## Publish to npm
+
+- Use the `np` utility:
+
+https://www.npmjs.com/package/np
+
+So the basic flow is:
+
+- make changes
+- create build
+- test build
+- publish build using `np`
+- publish build using `np --yolo` to skip tests
 
 # License: MIT
+
+## Meta
+
+- Previously
+==> npm --version
+6.5.0
+
+- Currently
+==> npm --version
+6.9.0
+
